@@ -1,0 +1,21 @@
+
+#container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+header, #main, footer {
+    flex: 1 100%;
+}
+
+header {
+    order: 1;
+    height: 60px;
+    max-height: 60px;
+}
+
+#main {
+    order: 2;
+
+}
